@@ -1,3 +1,9 @@
+# revision 23392
+# category Package
+# catalog-ctan /macros/latex/required/amslatex/amscls
+# catalog-date 2011-07-19 12:21:10 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-amscls
 Version:	20110719
 Release:	1
@@ -77,6 +83,7 @@ distribution.
 %doc %{_texmfdistdir}/source/latex/amscls/manifest.txt
 %doc %{_texmfdistdir}/source/latex/amscls/thmtest.tex
 %doc %{_texmfdistdir}/source/latex/amscls/upref.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -87,3 +94,5 @@ distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
