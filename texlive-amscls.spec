@@ -1,4 +1,4 @@
-# revision 23392
+# revision 26388
 # category Package
 # catalog-ctan /macros/latex/required/amslatex/amscls
 # catalog-date 2011-07-19 12:21:10 +0200
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-amscls
 Version:	20110719
-Release:	2
+Release:	3
 Summary:	AMS document classes for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/amscls
