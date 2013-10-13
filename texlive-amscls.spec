@@ -1,12 +1,12 @@
-# revision 26388
+# revision 30738
 # category Package
 # catalog-ctan /macros/latex/required/amslatex/amscls
-# catalog-date 2011-07-19 12:21:10 +0200
+# catalog-date 2013-02-02 11:29:56 +0100
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-amscls
-Version:	20110719
-Release:	3
+Version:	20130202
+Release:	1
 Summary:	AMS document classes for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/amscls
@@ -50,6 +50,7 @@ distribution.
 %doc %{_texmfdistdir}/doc/latex/amscls/00LICENSE.txt
 %doc %{_texmfdistdir}/doc/latex/amscls/amsart.template
 %doc %{_texmfdistdir}/doc/latex/amscls/amsbook.template
+%doc %{_texmfdistdir}/doc/latex/amscls/amsbooka.pdf
 %doc %{_texmfdistdir}/doc/latex/amscls/amsclass.pdf
 %doc %{_texmfdistdir}/doc/latex/amscls/amsdtx.pdf
 %doc %{_texmfdistdir}/doc/latex/amscls/amsmidx.pdf
@@ -63,6 +64,8 @@ distribution.
 %doc %{_texmfdistdir}/source/latex/amscls/00LICENSE.txt
 %doc %{_texmfdistdir}/source/latex/amscls/00readme.txt
 %doc %{_texmfdistdir}/source/latex/amscls/ams-c1.ins
+%doc %{_texmfdistdir}/source/latex/amscls/amsbooka.dtx
+%doc %{_texmfdistdir}/source/latex/amscls/amsbooka.ins
 %doc %{_texmfdistdir}/source/latex/amscls/amsclass.dtx
 %doc %{_texmfdistdir}/source/latex/amscls/amsdtx.dtx
 %doc %{_texmfdistdir}/source/latex/amscls/amsdtx.ins
