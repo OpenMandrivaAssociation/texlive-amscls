@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-amscls
 Version:	20130202
-Release:	5
+Release:	6
 Summary:	AMS document classes for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/amscls
