@@ -1,13 +1,13 @@
 Name:		texlive-amscls
-Version:	2.20.4
-Release:	2
+Version:	55378
+Release:	1
 Summary:	AMS document classes for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/amscls
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.r55378.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.doc.r55378.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.source.r55378.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ material is made available as part of the AMS-LaTeX
 distribution.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -38,7 +38,8 @@ distribution.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
