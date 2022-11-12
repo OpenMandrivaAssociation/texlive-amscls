@@ -5,9 +5,9 @@ Summary:	AMS document classes for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/amscls
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.r55378.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.doc.r55378.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.source.r55378.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
