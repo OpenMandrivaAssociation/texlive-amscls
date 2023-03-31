@@ -1,6 +1,6 @@
 Name:		texlive-amscls
 Version:	55378
-Release:	1
+Release:	2
 Summary:	AMS document classes for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/amscls
