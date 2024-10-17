@@ -3,7 +3,7 @@ Version:	55378
 Release:	2
 Summary:	AMS document classes for LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/amscls
+URL:		https://www.ctan.org/tex-archive/macros/latex/required/amslatex/amscls
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amscls.doc.r%{version}.tar.xz
